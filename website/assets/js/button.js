@@ -20,7 +20,7 @@ audio.play();
 );
 
 button.addEventListener("click", function() {
-window.location.href = "/website/home/";
+window.location.href = "/home/";
 }
 );
 
@@ -30,7 +30,7 @@ audio.play();
 );
 
 button2.addEventListener("click", function() {
-window.location.href = "/website/wacky/88x31/external-link/?goTo=https://www.ubuntu.com/&orPage=/website/wacky/88x31/";
+window.location.href = "/wacky/88x31/external-link/?goTo=https://www.ubuntu.com/&orPage=/wacky/88x31/";
 }
 );
 
@@ -40,12 +40,12 @@ audio.play();
 );
 
 button3.addEventListener("click", function() {
-window.location.href = "/website/wacky/88x31/external-link/?goTo=https://hacks.guide&orPage=/website/wacky/88x31/";
+window.location.href = "/wacky/88x31/external-link/?goTo=https://hacks.guide&orPage=/wacky/88x31/";
 }
 );
 
 button4.addEventListener("click", function() {
-window.location.href = "/website/wacky/88x31/external-link/?goTo=https://gemdation.com&orPage=/website/wacky/88x31/";
+window.location.href = "/wacky/88x31/external-link/?goTo=https://gemdation.com&orPage=/wacky/88x31/";
 }
 );
 
@@ -55,7 +55,7 @@ audio.play();
 );
 
 button5.addEventListener("click", function() {
-window.location.href = "/website/wacky/88x31/external-link/?goTo=https://aol.com&orPage=/website/wacky/88x31/";
+window.location.href = "/wacky/88x31/external-link/?goTo=https://aol.com&orPage=/wacky/88x31/";
 }
 );
 
@@ -65,7 +65,7 @@ audio.play();
 );
 
 button6.addEventListener("click", function() {
-window.location.href = "/website/wacky/88x31/external-link/?goTo=https://neocities.org&orPage=/website/wacky/88x31/";
+window.location.href = "/wacky/88x31/external-link/?goTo=https://neocities.org&orPage=/wacky/88x31/";
 }
 );
 
@@ -75,7 +75,7 @@ audio.play();
 );
 
 button7.addEventListener("click", function() {
-window.location.href = "/website/wacky/88x31/external-link/?goTo=https://www.firefox.com&orPage=/website/wacky/88x31/";
+window.location.href = "/wacky/88x31/external-link/?goTo=https://www.firefox.com&orPage=/wacky/88x31/";
 }
 );
 
@@ -85,7 +85,7 @@ audio.play();
 );
 
 button8.addEventListener("click", function() {
-window.location.href = "/website/wacky/88x31/external-link/?goTo=https://windows93.net/&orPage=/website/wacky/88x31/";
+window.location.href = "/wacky/88x31/external-link/?goTo=https://windows93.net/&orPage=/wacky/88x31/";
 }
 );
 
@@ -95,7 +95,7 @@ audio.play();
 );
 
 button9.addEventListener("click", function() {
-window.location.href = "/website/wacky/88x31/external-link/?goTo=https://html5.org/&orPage=/website/wacky/88x31/";
+window.location.href = "/wacky/88x31/external-link/?goTo=https://html5.org/&orPage=/wacky/88x31/";
 }
 );
 
@@ -105,7 +105,7 @@ audio.play();
 );
 
 button10.addEventListener("click", function() {
-window.location.href = "/website/wacky/88x31/external-link/?goTo=https://theoldnet.com/&orPage=/website/wacky/88x31/";
+window.location.href = "/wacky/88x31/external-link/?goTo=https://theoldnet.com/&orPage=/wacky/88x31/";
 }
 );
 
