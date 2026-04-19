@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="132.85875mm"
+   height="28.919691mm"
+   viewBox="0 0 132.85875 28.919691"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient2">
+      <stop
+         style="stop-color:#b20262;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#c0548b;stop-opacity:0.7647059;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="57.172874"
+       y1="246.17686"
+       x2="57.448895"
+       y2="222.93243"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99999999,0,0,0.35483873,-16.755826,103.70312)" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-39.714741,-181.57893)">
+    <path
+       style="fill:#a3a2a2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.573391"
+       d="m 62.129604,195.88475 -4.050395,-2.53797 -5.458292,-3.41983 v 3.41983 8.49577 z"
+       id="path34" />
+    <rect
+       style="opacity:1;fill:#9a0255;fill-opacity:1;stroke:#004edc;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect1"
+       width="132.67471"
+       height="28.522306"
+       x="39.805874"
+       y="181.97632" />
+    <rect
+       style="fill:url(#linearGradient3);stroke:#004edc;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect1-2"
+       width="132.67471"
+       height="10.120819"
+       x="39.865005"
+       y="181.79909" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ee55b1;stroke-width:1.14797px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 68.432618,209.52102 v -16.17424 -8.90443 -1.78519"
+       id="path35" />
+    <rect
+       style="fill:#ee55b1;fill-opacity:1;stroke:#004edc;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect1-2-1"
+       width="145.55576"
+       height="1.0729833"
+       x="30.053959"
+       y="181.57893" />
+    <rect
+       style="fill:#ee55b1;fill-opacity:1;stroke:#004edc;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect1-2-1-1"
+       width="145.55576"
+       height="1.0729833"
+       x="39.217453"
+       y="209.59875" />
+    <rect
+       style="fill:#ee55b1;fill-opacity:1;stroke:#004edc;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect1-2-1-6"
+       width="2.3921869"
+       height="30.23934"
+       x="38.201382"
+       y="182.37703" />
+    <rect
+       style="fill:#ee55b1;fill-opacity:1;stroke:#004edc;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect1-2-1-6-9"
+       width="2.3921869"
+       height="30.23934"
+       x="171.77165"
+       y="181.89568" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:13.2238px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.573391"
+       x="52.778549"
+       y="200.72412"
+       id="text36"><tspan
+         x="52.778549"
+         y="200.72412"
+         id="tspan36"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.573391"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:13.2238px;font-family:Arial;fill:#ffffff;fill-opacity:1;stroke-width:0.573391"
+           id="tspan35"
+           dy="0"
+           dx="0">     Go to the Github</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.576294"
+       d="m 58.867268,195.73833 -8.766537,-6.61446 v 13.22891 z"
+       id="path1" />
+  </g>
+</svg>
