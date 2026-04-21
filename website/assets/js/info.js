@@ -2,8 +2,8 @@
 this script gets the date & time and puts it in the cutebard-website-about-header div class i guess.
 it also replaces the inner html of the about header too */
 
-var updateNotes = "literally the website came out, do you even want or need update notes? you're an insane person.";
-var lastUpdate = "April 9, 2026";
+var updateNotes = "added some fixes for firefox, (the css was breaking  in firefox so i had to fix it)";
+var lastUpdate = "April 19, 2026";
 var headInfo = "about website";
 var parA = "last update: " + lastUpdate;
 var parB = "update notes: " + updateNotes;
