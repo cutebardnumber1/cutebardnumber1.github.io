@@ -1,5 +1,12 @@
-// announcement header script
-// written by cutebard because i want to feel like i did stuff on my website other than just css and html
+/* what the heck is this?
+this is script allows me to put custom messages onto that little tiny header on the top of most pages.
+why?
+why not.
+
+p.s do not RiiSlop this.
+thank you :)
+
+*/
 
 var showAnnouncement = true;
 var announcementDialog = "welcome to cutebard's website. this is wehere all the announcements go i guess. anyways, blog is coming soon so uh yeah. i like cheese, bye.";

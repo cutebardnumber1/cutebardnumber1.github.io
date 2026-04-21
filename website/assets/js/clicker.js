@@ -1,4 +1,5 @@
-// written by cutebard =)
+/* it's really easy to get to the custom messages using the console.
+i won't tell you how */
 
 var button = document.getElementById("buttonClicker");
 var scoreCounter = document.getElementById("scoreCount");

@@ -1,115 +1,134 @@
 const audio = new Audio("/website/assets/audio/hover.mp3");
 const mus = new Audio("/website/assets/audio/musicGame.mp3");
-var button = document.getElementById("1button")
-var button2 = document.getElementById("2button")
-var button3 = document.getElementById("3button")
-var button4 = document.getElementById("4button")
-var button5 = document.getElementById("5button")
-var button6 = document.getElementById("6button")
-var button7 = document.getElementById("7button")
-var button8 = document.getElementById("8button")
-var button9 = document.getElementById("9button")
-var button10 =document.getElementById("10button")
-
 mus.loop = true;
 mus.play();
 
-button.addEventListener("mouseover", function() {
+document.getElementById("1button").addEventListener("mouseover", function() {
 audio.play();
 }
 );
 
-button.addEventListener("click", function() {
+document.getElementById("1button").addEventListener("click", function() {
 window.location.href = "/home/";
 }
 );
 
-button2.addEventListener("mouseover", function() {
+document.getElementById("2button").addEventListener("mouseover", function() {
 audio.play();
 }
 );
 
-button2.addEventListener("click", function() {
+document.getElementById("2button").addEventListener("click", function() {
 window.location.href = "/wacky/88x31/external-link/?goTo=https://www.ubuntu.com/&orPage=/wacky/88x31/";
 }
 );
 
-button3.addEventListener("mouseover", function() {
+document.getElementById("3button").addEventListener("mouseover", function() {
 audio.play();
 }
 );
 
-button3.addEventListener("click", function() {
+document.getElementById("3button").addEventListener("click", function() {
 window.location.href = "/wacky/88x31/external-link/?goTo=https://hacks.guide&orPage=/wacky/88x31/";
 }
 );
 
-button4.addEventListener("click", function() {
+document.getElementById("4button").addEventListener("click", function() {
 window.location.href = "/wacky/88x31/external-link/?goTo=https://gemdation.com&orPage=/wacky/88x31/";
 }
 );
 
-button4.addEventListener("mouseover", function() {
+document.getElementById("4button").addEventListener("mouseover", function() {
 audio.play();
 }
 );
 
-button5.addEventListener("click", function() {
+document.getElementById("5button").addEventListener("click", function() {
 window.location.href = "/wacky/88x31/external-link/?goTo=https://aol.com&orPage=/wacky/88x31/";
 }
 );
 
-button5.addEventListener("mouseover", function() {
+document.getElementById("5button").addEventListener("mouseover", function() {
 audio.play();
 }
 );
 
-button6.addEventListener("click", function() {
+document.getElementById("6button").addEventListener("click", function() {
 window.location.href = "/wacky/88x31/external-link/?goTo=https://neocities.org&orPage=/wacky/88x31/";
 }
 );
 
-button6.addEventListener("mouseover", function() {
+document.getElementById("6button").addEventListener("mouseover", function() {
 audio.play();
 }
 );
 
-button7.addEventListener("click", function() {
+document.getElementById("7button").addEventListener("click", function() {
 window.location.href = "/wacky/88x31/external-link/?goTo=https://www.firefox.com&orPage=/wacky/88x31/";
 }
 );
 
-button7.addEventListener("mouseover", function() {
+document.getElementById("7button").addEventListener("mouseover", function() {
 audio.play();
 }
 );
 
-button8.addEventListener("click", function() {
+document.getElementById("8button").addEventListener("click", function() {
 window.location.href = "/wacky/88x31/external-link/?goTo=https://windows93.net/&orPage=/wacky/88x31/";
 }
 );
 
-button8.addEventListener("mouseover", function() {
+document.getElementById("8button").addEventListener("mouseover", function() {
 audio.play();
 }
 );
 
-button9.addEventListener("click", function() {
+document.getElementById("9button").addEventListener("click", function() {
 window.location.href = "/wacky/88x31/external-link/?goTo=https://html5.org/&orPage=/wacky/88x31/";
 }
 );
 
-button9.addEventListener("mouseover", function() {
+document.getElementById("9button").addEventListener("mouseover", function() {
 audio.play();
 }
 );
 
-button10.addEventListener("click", function() {
+document.getElementById("10button").addEventListener("click", function() {
 window.location.href = "/wacky/88x31/external-link/?goTo=https://theoldnet.com/&orPage=/wacky/88x31/";
 }
 );
 
-button10.addEventListener("mouseover", function() {
+document.getElementById("10button").addEventListener("mouseover", function() {
 audio.play();
+}
+);
+
+document.getElementById("11button").addEventListener("mouseover", function() {
+audio.play();
+}
+);
+
+document.getElementById("11button").addEventListener("click", function() {
+window.location.href = "/wacky/88x31/external-link/?goTo=https://yourtooslow.com&orPage=/wacky/88x31/";
+}
+);
+
+document.getElementById("12button").addEventListener("mouseover", function() {
+audio.play();
+}
+);
+
+document.getElementById("12button").addEventListener("click", function() {
+window.location.href = "/wacky/88x31/external-link/?goTo=https://idkwhereisthis.name&orPage=/wacky/88x31/";
+}
+);
+
+document.getElementById("13button").addEventListener("mouseover", function() {
+audio.play();
+}
+);
+
+document.getElementById("13button").addEventListener("click", function() {
+window.location.href = "/wacky/88x31/external-link/?goTo=https://thewiiarchivist.github.io&orPage=/wacky/88x31/";
 }
 );
