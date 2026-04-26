@@ -47,6 +47,8 @@ a.hyperlink {
     font-family: gotham_boldregular,monospace;
     font-size: 20px;
     text-decoration: underline;
+    text-align: center;
+    font-style: italic;
 }
 
 /* scrapped button */
@@ -437,10 +439,5 @@ h1.itmWACKY {
 }
 
 b.ital {
-    font-style: italic;
-}
-
-#actuallyCenteredThisTime {
-    text-align: center;
     font-style: italic;
 }
