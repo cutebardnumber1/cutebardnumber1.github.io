@@ -9,7 +9,7 @@ thank you :)
 */
 
 var showAnnouncement = true;
-var announcementDialog = "welcome to cutebard's website. this is wehere all the announcements go i guess. anyways, blog is coming soon so uh yeah. i like cheese, bye.";
+var announcementDialog = "welcome back, newer stuff is in  the \"wacky\" section of the site, have fun. maybe. (actually i rarely did anything :broken_heart:)";
 var announceHead = document.getElementById("announcement");
 
 if (showAnnouncement) {

@@ -2,12 +2,12 @@
 this script gets the date & time and puts it in the cutebard-website-about-header div class i guess.
 it also replaces the inner html of the about header too */
 
-var updateNotes = "added some fixes for firefox, (the css was breaking  in firefox so i had to fix it)";
-var lastUpdate = "April 19, 2026";
+var updateNotes = "added some stuff to the wacky page, and some announcements have changed. also something in the projects section works now ig";
+var lastUpdate = "April 25, 2026";
 var headInfo = "about website";
 var parA = "last update: " + lastUpdate;
 var parB = "update notes: " + updateNotes;
-var parC = "<strong>&copy; no one because this is open source so yeah</strong>";
+var parC = "<strong>&copy; lovely weather we're having here.</strong>";
 var htmlHead = document.getElementById("headInfo")
 var userDate = new Date();
 var month = userDate.getMonth() + 1;
