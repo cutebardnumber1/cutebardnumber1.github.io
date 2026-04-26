@@ -439,3 +439,8 @@ h1.itmWACKY {
 b.ital {
     font-style: italic;
 }
+
+#actuallyCenteredThisTime {
+    text-align: center;
+    font-style: italic;
+}
