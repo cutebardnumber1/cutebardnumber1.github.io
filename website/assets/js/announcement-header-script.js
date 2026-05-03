@@ -9,7 +9,7 @@ thank you :)
 */
 
 var showAnnouncement = true;
-var announcementDialog = "welcome back, newer stuff is in  the \"wacky\" section of the site, have fun. maybe. (actually i rarely did anything :broken_heart:)";
+var announcementDialog = "WE HAVE A FOUR OH FOUR PAGE, and the background is purple if you want to know (you probably don't care nvm) and the announcement header is also purple.";
 var announceHead = document.getElementById("announcement");
 
 if (showAnnouncement) {
@@ -22,8 +22,8 @@ if (showAnnouncement) {
     console.warn("showAnnouncement is not true. (guess there's no announcements then... :P)");
 }
 
-var aUseCustomColor = false;
-var customColor = "#ff0000";
+var aUseCustomColor = true;
+var customColor = "#530d81";
 
 if (aUseCustomColor) {
     console.log("using custom color for announcement header.");
