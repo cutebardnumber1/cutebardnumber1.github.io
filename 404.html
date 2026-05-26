@@ -21,20 +21,24 @@
     <div class="announcement-header" id="announcement" style="display: none;"></div>
     </div>
 <nav class="button-header" id="buttons-header">
-    <a href="/home/"><button class="button-green">homepage</button></a>
-    <a class="button-blue" href="/projects/">projects</a>
-    <a class="button-red" href="/about/">about me</a>
-    <a class="button-orange" href="/wacky/">other "wacky" stuff</a>
+    <a><button class="button-green" onclick="gettopage(/home/)">homepage</button></a>
+    <a class="button-blue" onclick="gettopage(/projects/)">projects</a>
+    <a class="button-red" onclick="gettopage(/about/)">about me</a>
+    <a class="button-orange" onclick="gettopage(/wacky/)">other "wacky" stuff</a>
 </nav>
 <div class="heading">
     <h1 class="fof">404</h1>
     <p>So, we found your page. However, it's like 50,000 miles away... and I don't want to walk that much...</p>
     <p>Oh well, I guess we can try again some day...</p>
+    <p>(jk, we didn't find your page.)</p>
 </div>
 
 
 <!-- you do NOT know how hard this was. -->
-<script src="/website/assets/js/announcement-header-script.js"></script>
-<script src="/website/assets/js/head-fix.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+<script src="/website/assets/js/main.js"></script>
 </body>
 </html>

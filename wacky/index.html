@@ -21,9 +21,9 @@
     <div class="announcement-header" id="announcement" style="display: none;"></div>
     </div>
 <nav class="button-header" id="buttons-header">
-    <a href="/home/" class="button-green">homepage</a>
-    <a class="button-blue" href="/projects/">projects</a>
-    <a class="button-red" href="/about/">about me</a>
+    <a onclick="gettopage(/home/)" class="button-green">homepage</a>
+    <a class="button-blue" onclick="gettopage(/projects/)">projects</a>
+    <a class="button-red" onclick="gettopage(/about/)">about me</a>
     <button class="button-orange-selected">other "wacky" stuff</button>
 </nav>
 <div class="heading">
@@ -39,8 +39,8 @@
     <img class="Image" src="/website/assets/img/buttons.png" alt="buttons">
     </div>
 <nav class="choose-header">
-<a href="/wacky/88x31/">
-    <button class="button-checkout">let's go to a totally "classic" website</button>
+<a onclick="gettopage('/wacky/88x31/')" onmouseover="hovSound()">
+    <button class="button-checkout" >let's go to a totally "classic" website</button>
 </a>
 </nav>
 </div>
@@ -49,21 +49,20 @@
     <h1 class="itmWACKY">some other websites</h1>
     <p><b>WHAT IS THIS:</b> websites duh</p>
     <p>
-        <a class="hyperlink" id="actuallyCenteredThisTime" href="https://guthib.com/" target="_blank">guthub.com</a>
+        <a class="hyperlink" id="actuallyCenteredThisTime" onmouseover="hovSound();" onclick="clickSound()" href="https://guthib.com/" target="_blank">guthub.com</a>
     </p>
     <p>
-        <a class="hyperlink" id="actuallyCenteredThisTime" href="https://jquery.com/" target="_blank">jquery (why not jquery.com)</a>
+        <a class="hyperlink" id="actuallyCenteredThisTime" onmouseover="hovSound();" onclick="clickSound()" href="https://jquery.com/" target="_blank">jquery (why not jquery.com)</a>
     </p>
     <p>
-        <a class="hyperlink" id="actuallyCenteredThisTime" href="https://web.archive.org" target="_blank">epic archive (web.archive.org)</a>
+        <a class="hyperlink" id="actuallyCenteredThisTime" onmouseover="hovSound();" onclick="clickSound()" href="https://web.archive.org" target="_blank">epic archive (web.archive.org)</a>
     </p>
     <p>
-        <a class="hyperlink" id="actuallyCenteredThisTime" href="https://wiimart.org/" target="_blank">scary website (wiimart.org)</a>
+        <a class="hyperlink" id="actuallyCenteredThisTime" onmouseover="hovSound();" onclick="clickSound()" href="https://wiimart.org/" target="_blank">scary website (wiimart.org)</a>
     </p>
     <p>
-        <a class="hyperlink" id="actuallyCenteredThisTime" href="https://thomisacheeseball.org/" target="_blank">ip grabber (thomisacheeseball.org, for legal reasons this is a joke, or is it?)</a>
     </p>
-    <p><b>do you for whatever reason want your website here?</b> contact me at <a class="hyperlink" href="/about/">the about page</a></p>
+    <p><b>do you for whatever reason want your website here?</b> contact me at <a class="hyperlink" onclick="gettopage(/about/)" onmouseover="hovSound()">the about page</a></p>
 </div>
 
 <div class="heading">
@@ -75,7 +74,10 @@
 </div>
 
 <!-- you do NOT know how hard this was. -->
-<script src="/website/assets/js/announcement-header-script.js"></script>
-<script src="/website/assets/js/head-fix.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+<script src="/website/assets/js/main.js"></script>
 </body>
 </html>

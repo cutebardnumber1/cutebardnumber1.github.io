@@ -21,14 +21,14 @@
     <div class="announcement-header" id="announcement" style="display: none;"></div>
     </div>
 <nav class="button-header" id="buttons-header">
-    <a class="button-green" href="/home/">homepage</a>
-    <a class="button-blue" href="/projects/">projects</a>
+    <a class="button-green" onclick="gettopage(/home/)">homepage</a>
+    <a class="button-blue" onclick="gettopage(/projects/)">projects</a>
     <button class="button-red-selected">about me</button>
-    <a class="button-orange" href="/wacky/">other "wacky" stuff</a>
+    <a class="button-orange" onclick="gettopage(/wacky/)">other "wacky" stuff</a>
 </nav>
 
 <div class="cutebard-website-about-header" id="headInfo">
-    <a href="/website/blog/other-announcements" target="_blank"><button class="button-red" style="margin-left: 228px; margin-bottom: 10px;">Go to the older announcements</button></a>
+    <p>please wait...</p>
 </div>
 
 <div class="heading">
@@ -55,8 +55,14 @@
 </div>
 
 <!-- you do NOT know how hard this was. -->
+<!--<script src="/website/assets/js/hover&click.js"></script>
 <script src="/website/assets/js/announcement-header-script.js"></script>
 <script src="/website/assets/js/info.js"></script>
-<script src="/website/assets/js/head-fix.js"></script>
+<script src="/website/assets/js/head-fix.js"></script>-->
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+<script src="/website/assets/js/main.js"></script>
 </body>
 </html>

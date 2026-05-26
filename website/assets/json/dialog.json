@@ -1,0 +1,8 @@
+{
+    "an_dio": "i hope this works, anyways now the announcements use a json file. isn't that sweet :-)? also, most the js files are combined, and some pages are updated.",
+    "parA": "May 25th, 2026",
+    "parB": "announcements use a json file, more pages have been updated, more buttons, and all js files are combined for better clean stuff i guess",
+    "an_show": true,
+    "have_cc": true,
+    "an_color": "linear-gradient(344deg,rgba(212, 56, 56, 1) 0%, rgba(201, 0, 0, 1) 51%, rgb(139, 46, 6) 100%)"
+}

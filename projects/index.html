@@ -21,10 +21,10 @@
 <div class="announcement-header" id="announcement" style="display: none;"></div>
 
 <div class="button-header" id="buttons-header">
-    <a class="button-green" href="/home/">homepage</a>
+    <a class="button-green" onclick="gettopage(/home/)">homepage</a>
     <button class="button-blue-selected">projects</button>
-    <a class="button-red" href="/about/">about me</a>
-    <a class="button-orange" href="/wacky/">other "wacky" stuff</a>
+    <a class="button-red" onclick="gettopage(/about/)">about me</a>
+    <a class="button-orange" onclick="gettopage(/wacky/)">other "wacky" stuff</a>
 </div>
 <div class="heading">
     <h1 class="project">projects</h1>
@@ -40,7 +40,7 @@
     <p>The Wii, (of course) had BBC iPlayer... BBC iPlayer was available on the Wii Shop Channel, but was then discontinued later on in 2015...</p>
     <p>For some reason, they used Adobe Flash to create the whole channel. A file the Channel relies on (wiiiplayer.swf) is lost media, which is supposed to contain the whole interface.</p>
     <p>Some people on the <a class="hyperlink" href="https://wii-stream.github.io/" target="_blank">WiiStream Team</a> have been working on restoring the lost file. I was the one responsible for the user interface. However, the project was halted before anything could happen.</p>
-    <a href="https://github.com/idkwhere1sthisname/iPlayer_Wii_Server" target="_blank"><button class="bbciplayer-button-wii" style="margin-left: 270px; margin-bottom: 20px;">Check out the Github!</button></a>
+    <a onclick="gettopageEx('https://github.com/idkwhere1sthisname/iPlayer_Wii_Server')" onmouseover="hovSound()" target="_blank"><button class="bbciplayer-button-wii" style="margin-left: 320px;margin-bottom: 20px;">view github</button></a>
 </div>
 
 <div class="heading">
@@ -56,13 +56,18 @@
     <p>However, in January of 2026, Stingray announced that the store would be <strong>closing down in mid-2026 (June 2026).</strong> The ability to purchase songs from the store was also revoked on March 31st of that year.</p>
     <p>The decision was done to focus on their Stingray Karaoke Mobile App. The Singing Machine Company, Inc was also later acquired by Stingray in 2025 so the store could be closed either way.</p>
     <p>I became deeply interested in the entirety of Singing Machine, and Stingray (for some reason), so I decided to revive the store. You can check out the Singing Machine Version of the store & the Stingray Version.</p>
-    <a href="https://downloadkstore.github.io/store/browse/featured/nil/all" target="_blank"><button class="kar-button" style="margin-left: 80px; margin-bottom: 10px;">Stingray Karaoke Version</button></a>
-    <a href="https://downloadkstore.github.io/store/singingmachine/browse/featured/nil/all" target="_blank"><button class="kar-button">Singing Machine Version</button></a>
-    <a href="/wacky/karaokeStorewin/" target="_blank"></a><button class="kar-button" style="margin-left: 165px; margin-bottom: 10px;">Download Desktop App (WINDOWS ONLY)</button>
+    <a onclick="gettopageEx('https://downloadkstore.github.io/store/browse/featured/nil/all')" onmouseover="hovSound()" target="_blank"><button class="kar-button" style="margin-left: 80px; margin-bottom: 10px;">Stingray Karaoke Version</button></a>
+    <a onclick="gettopageEx('https://downloadkstore.github.io/store/singingmachine/browse/featured/nil/all')" onmouseover="hovSound()" target="_blank"><button class="kar-button">Singing Machine Version</button></a>
+    <a onclick="gettopage('/wacky/karaokeStorewin/')" onmouseover="hovSound()" target="_blank"><button class="kar-button" style="margin-left: 165px; margin-bottom: 10px;">Download Desktop App (WINDOWS ONLY)</button></a>
 </div>
 
 </body>
 <!-- you do NOT know how hard this was. -->
-<script src="/website/assets/js/announcement-header-script.js"></script>
-<script src="/website/assets/js/head-fix.js"></script>
+<!--<script src="/website/assets/js/announcement-header-script.js"></script>
+<script src="/website/assets/js/head-fix.js"></script>-->
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+<script src="/website/assets/js/main.js"></script>
 </html>
