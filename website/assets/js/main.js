@@ -5,7 +5,7 @@ congrats you have successfully found the main script behind this website.
 shoutout to MiiMakerTV 24 and Mii get your
 
 */
-window.onload = (function() {
+$(function() {
 var json_d;
 function start() {
     console.log("start run")

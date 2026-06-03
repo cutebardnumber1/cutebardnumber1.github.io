@@ -1,5 +1,5 @@
 const audio = new Audio("/website/assets/audio/hover.mp3");
-const mus = new Audio("/website/assets/audio/musicGame.mp3");
+const mus = new Audio("/website/assets/audio/j.mp3");
 mus.loop = true;
 mus.play();
 
@@ -130,5 +130,35 @@ audio.play();
 
 document.getElementById("13button").addEventListener("click", function() {
 window.location.href = "/wacky/88x31/external-link/?goTo=https://thewiiarchivist.github.io&orPage=/wacky/88x31/";
+}
+);
+
+document.getElementById("14button").addEventListener("mouseover", function() {
+audio.play();
+}
+);
+
+document.getElementById("14button").addEventListener("click", function() {
+window.location.href = "/wacky/88x31/external-link/?goTo=https://www.reddit.com/r/wiiu/comments/1tm9eqd/receiving_error_message_on_recently_bought_wii_u/&orPage=/wacky/88x31/";
+}
+);
+
+document.getElementById("15button").addEventListener("mouseover", function() {
+audio.play();
+}
+);
+
+document.getElementById("15button").addEventListener("click", function() {
+window.location.href = "/wacky/88x31/external-link/?goTo=https://github.com/TCOTC/CleanFlash_Installer&orPage=/wacky/88x31/";
+}
+);
+
+document.getElementById("16button").addEventListener("mouseover", function() {
+audio.play();
+}
+);
+
+document.getElementById("16button").addEventListener("click", function() {
+window.location.href = "/wacky/88x31/external-link/?goTo=https://sega.com&orPage=/wacky/88x31/";
 }
 );
