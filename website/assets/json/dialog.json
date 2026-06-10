@@ -1,8 +1,8 @@
 {
-    "an_dio": "i hope this works, anyways now the announcements use a json file. isn't that sweet :-)? also, most the js files are combined, and some pages are updated.",
-    "parA": "May 25th, 2026",
-    "parB": "announcements use a json file, more pages have been updated, more buttons, and all js files are combined for better clean stuff i guess",
+    "an_dio": "important: things don't last forever, do they? the website will have a rebrand come very soon. don't worry though, this older website will still be open source on a new repository in github. thank you for checking out this site and i hope you'll enjoy the newer one, for now this site will still get updates, but a newer site will be developed.",
+    "parA": "June 10th, 2026",
+    "parB": "important: things don't last forever, do they? the website will have a rebrand come very soon. don't worry though, this older website will still be open source on a new repository in github. thank you for checking out this site and i hope you'll enjoy the newer one, for now this site will still get updates, but a newer site will be developed.",
     "an_show": true,
     "have_cc": true,
-    "an_color": "linear-gradient(344deg,rgba(212, 56, 56, 1) 0%, rgba(201, 0, 0, 1) 51%, rgb(139, 46, 6) 100%)"
+    "an_color": "linear-gradient(17deg,rgba(255, 243, 115, 1) 0%, rgba(222, 214, 0, 1) 61%, rgba(230, 255, 0, 1) 100%)"
 }
